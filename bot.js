@@ -165,9 +165,7 @@ async function tweetPrediction(prediction, lastRequestedDaySpan, peopleRequested
 ${gainLoss}: $${format("#,##0.##",prediction.raw)}
 ${gainLoss} percentage: ${prediction.percentage.toFixed(2)}% ${percentageEmoji}
 ${peopleData}
-💎 Current BTC value: $${format("#,##0.##",bitcoinData.results.USD.last)}
-
-Request a prediction by tweeting "@coin_instinct Predict for number days".
+💎 Current BTC value: $${format("#,##0.##",bitcoinData.results.USD.last)}".
   `;
   //console.log(tweetText);
   //console.log('Note to self: Uncomment post line to tweet');
